@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="wood store">
+    <meta name="author" content="@dubeyDev">
+    
+    <title>Shop</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav  navbar-left">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#shop">shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#magazine">magazine</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto navbar-right">
+                    <li class="nav-item">
+  <div class=""><i class="material-icons">search</i>
+    <input id="myInput" type="text" name="product" placeholder="type product name">
+  </div>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#signup">signup <span class="glyphicon glyphicon-user"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#login">login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <!-- Page Content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="list-group text-muted">FILTER BY</div>
+                    <br>
+                    <div class="list-group">
+                        <button class="accordion active">Collection</button>
+                        <div class="panel" style="max-height: 120px;">
+                            <ul class="navbar-nav  navbar-left">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#home">Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#shop">shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#magazine">magazine</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="accordion">Color</button>
+                        <div class="panel">
+                            <ul class="navbar-nav  navbar-left">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#home">Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#shop">shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#magazine">magazine</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="accordion">Category</button>
+                        <div class="panel">
+                            <ul class="navbar-nav  navbar-left">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#home">Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#shop">shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#magazine">magazine</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="accordion">price Range</button>
+                        <div class="panel" >
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="10000" value="2000" class="slider bg-light" id="myRange">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-3 -->
+                <div class="col-lg-9">
+                    <div class="row" id="app">
+                    </div>
+                    <!-- /.row -->
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">2 </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">3 </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">4 </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">5 </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">6 </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /.col-lg-9 -->
+                
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- Footer -->
+   
+    <footer class="py-5 bg-dark">
+    </footer>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

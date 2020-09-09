@@ -1,0 +1,68 @@
+[{
+    "prod_name": "ItemOne",
+    "category": "table",
+    "price": "$23",
+    "user": {
+        "rating": 4,
+        "likes": 1406        
+    },
+    "prod_img": "https://shop.static.ingka.ikea.com/category-images/Category_tables-and-desks.jpg?imwidth=300",
+    "description":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." ,
+    "brand_name":"ikea",
+    "colors":["#000000","#736AFF"],
+    "thumbNails":["https://www.ikea.com/in/en/images/products/linnmon-alex-table__0849610_PE638502_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0723654_PE734097_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0795313_PE766000_S5.JPG?f=xs"]       
+
+},{
+    "prod_name": "ItemTwo",
+    "category": "chair",
+    "price": "$29",
+    "user": {
+        "rating": 3,
+        "likes": 1406        
+    },
+    "prod_img": "https://shop.static.ingka.ikea.com/revamp/outdoor-furniture_od003.jpg?imwidth=300" ,
+    "description":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." ,
+    "brand_name":"ikea",
+    "colors":["#000000","#736AFF"],
+    "thumbNails":["https://www.ikea.com/in/en/images/products/linnmon-alex-table__0849610_PE638502_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0723654_PE734097_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0795313_PE766000_S5.JPG?f=xs"]
+
+},{
+    "prod_name": "ItemThree",
+    "category": "chair2",
+    "price": "$25",
+    "user": {
+        "rating": 2,
+        "likes": 1406        
+    },
+    "prod_img": "https://shop.static.ingka.ikea.com/revamp/bookcases-shelving-units_st002.jpg?imwidth=300",
+    "description":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." ,
+    "brand_name":"ikea",
+    "colors":["#000000","#736AFF"],
+    "thumbNails":["https://www.ikea.com/in/en/images/products/linnmon-alex-table__0849610_PE638502_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0723654_PE734097_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0795313_PE766000_S5.JPG?f=xs"] 
+},{
+    "prod_name": "ItemFour",
+    "category": "table2",
+    "price": "$24",
+    "user": {
+        "rating": 3,
+        "likes": 1406        
+    },
+    "prod_img": "https://shop.static.ingka.ikea.com/category-images/Category_small-furniture.jpg?imwidth=300",
+    "description":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." ,
+    "brand_name":"ikea",
+    "colors":["#000000","#736AFF"],
+    "thumbNails":["https://www.ikea.com/in/en/images/products/linnmon-alex-table__0849610_PE638502_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0723654_PE734097_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0795313_PE766000_S5.JPG?f=xs"] 
+},{
+    "prod_name": "Itemfive",
+    "category": "table3",
+    "price": "$263",
+    "user": {
+        "rating": 1,
+        "likes": 1406        
+    },
+    "prod_img": "https://shop.static.ingka.ikea.com/category-images/Category_cafe-furniture.jpg?imwidth=300",
+    "description":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." ,
+    "brand_name":"ikea",
+    "colors":["#000000","#736AFF"],
+    "thumbNails":["https://www.ikea.com/in/en/images/products/linnmon-alex-table__0849610_PE638502_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0723654_PE734097_S5.JPG?f=xs","https://www.ikea.com/in/en/images/products/linnmon-alex-table__0795313_PE766000_S5.JPG?f=xs"] 
+}]
