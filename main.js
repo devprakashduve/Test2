@@ -28,7 +28,7 @@ function loadContent() {
     if (location.hash == "#home") {
 
         $.ajax({
-            url: "http://localhost/deloitte_test/product.json",
+            url: "http://localhost/test/product.json",
             success: function(result) {
                 $.each(result, function(i, field) {
                     let userRating = '';
@@ -53,7 +53,7 @@ function loadContent() {
         console.log(itemname); 
         }
         $.ajax({
-            url: "http://localhost/deloitte_test/product.json",
+            url: "http://localhost/test/product.json",
             success: function(result) {
                 $.each(result, function(i, field) {
          if (field.prod_name==itemname) {
